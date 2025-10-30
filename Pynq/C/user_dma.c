@@ -86,7 +86,7 @@ void dma_tx( const uint32_t * const SRC_PADDR, const uint32_t SRC_SIZE )
     //Step 4:  Set Number of Bytes to transfer
     // From Docs:  Writing a non-zero value to this register starts the MM2S transfer.
 
-    //Wait for completion
+    //Step 5: Wait for completion
 
     dprintf("DMA transfer complete\n");
 
