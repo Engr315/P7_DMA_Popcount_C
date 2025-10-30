@@ -44,7 +44,7 @@ const uint32_t DMA_MAX_SIZE = 256 * 32;
 
 // Documented in: 
 // AXI DMA v7.1LogiCORE IP Product Guide
-// https://www.xilinx.com/support/documentation/ip_documentation/axi_dma/v7_1/pg021_axi_dma.pdf
+// https://www.amd.com/content/dam/xilinx/support/documents/ip_documentation/axi_dma/v7_1/pg021_axi_dma.pdf
 volatile uint32_t * MM2S_DMACR;
 volatile uint32_t * MM2S_DMASR;
 volatile uint32_t * MM2S_SA;
